@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+</head>
+<body>
+  <div class="navbar">
+    <nav>
+      <a class="links" href="#">Home</a>
+      <a  class="links" href="#">Services</a>
+      <a  class="links" href="#">Contact</a>
+      <a  class="links" href="#">About</a>
+    </nav>
+  </div>
+  <div class="all">
+  <div class="container1">
+    <h1>Welcome to Your Home Away from Home!</h1>
+    <p>
+        Discover unique places to stay and experiences around the world. Whether you are looking for a cozy apartment in the city, a beachfront villa, or an adventurous glamping experience, we have options to suit every traveler. Explore homes hosted by locals, each offering a personal touch to make your trip unforgettable.
+    </p>
+    <p>
+        At <vida class="c">vida</vida>, we believe in connecting people with one-of-a-kind stays and creating memories that last a lifetime. Whether you're planning a weekend getaway or a long-term vacation, you'll find something special just for you.
+    </p>
+  </div>
+  <div class="container">   
+  <div class="container2">
+    <div class="container3">
+      <h2>Local Hosts, Personal Touch</h2>
+      <p>Stay with trusted local hosts who offer more than just a room. <br>
+        <br> Get insider tips and experience the destination like a local.</p>
+    </div>
+    
+    <img src="istockphoto-528487340-612x612.jpg" alt="5">
+  </div>
+  <div class="container3">
+    <div class="container3">
+      <h2>Local Hosts, Personal Touch</h2>
+      <p>Stay with trusted local hosts who offer more than just a room. 
+        <br> Get insider tips and experience the destination like a local.</p>
+    </div>
+    
+    <img src="istockphoto-2.jpg" alt="1">
+  </div>
+  <div class="container4">
+    <div class="container4">
+      <h2>Experiences Await</h2>
+      <p>From cooking classes to guided hikes, immerse yourself in memorable activities. 
+        <br>Choose from curated experiences to enhance your stay.</p>
+    </div>
+    
+    <img src="istockphoto-3.jpg" alt="2">
+  </div>
+  <div class="container5">
+    <div class="container5">
+      <h2>Easy Booking</h2>
+      <p>Find, book, and manage your stay effortlessly with our streamlined platform. 
+        <br> Enjoy a hassle-free process from start to finish.</p>
+    </div>
+    
+    <img src="istockphoto-5.jpg" alt="3">
+  </div>
+  <div class="container6">
+    <img src="istockphoto-6.jpg" alt="4">
+  </div>
+  </div>
+  <br><br><br>
+  <a href="#">View more</a>
+</body>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    .all{
+      margin: 0;
+      font-style: arial;
+    }
+    h1{
+      font-size: 20px;
+      margin-bottom: 15px;
+      letter-spacing: 3px;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 3px;
+    }
+    h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+    .container{
+      display:flex;
+      justify-content: space-evenly;
+      gap: 20px;
+    }
+
+    .container1{
+      margin-top: 100px;
+      border-radius: 10px;
+      border: none;
+      width: 1000px;
+      height: 200px;
+      background-color: lightgray;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #f0f0f0;
+      overflow-y: auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 150px auto; 
+      padding: 20px;
+      overflow-y: auto;
+    }
+    .container2, .container3, .container4, .container5, .container6 {
+  border-radius: 12px;
+  width: 250px;
+  height: 250px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+    .container2 img, .container3 img, .container4 img, .container5 img, .container6 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 8px;
+  transition: transform opacity 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.container2 img:hover, .container3 img:hover, .container4 img:hover, .container5 img:hover, .container6 img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  opacity: 0.9;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container2, .container3, .container4, .container5, .container6, .container7 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+    @media (max-width: 768px) {
+            .container {
+                width: 90%; 
+                height: auto; 
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 22px; 
+               
+            }
+
+            p {
+                font-size: 15px; 
+            }
+        }
+
+        
+        @media (max-width: 480px) {
+            .container {
+                width: 100%; 
+                height: auto; 
+                padding: 10px; 
+            }
+
+            h1 {
+                font-size: 20px; 
+            }
+
+            p {
+                font-size: 14px; 
+                line-height: 1.4; 
+            }
+        }
+     /* Navbar Styles */
+.navbar {
+    background-color: #2c3e50; 
+    padding: 15px 20px; 
+    position: fixed; 
+    width: 100%; 
+    top: 0;
+    left: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar nav {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.navbar nav a {
+    color: #ecf0f1; 
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+
+.navbar nav a:hover {
+    background-color: #e74c3c; 
+    transform: scale(1.05); 
+}
+
+@media (max-width: 768px) {
+    .navbar nav {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .navbar nav a {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px; 
+    }
+    .navbar nav a {
+        font-size: 16px; 
+        padding: 8px 15px; 
+    }
+}
+
+  </style>
+  <script>
+
+  </script>
+</body>
+</html>
